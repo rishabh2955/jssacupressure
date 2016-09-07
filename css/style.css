@@ -1,0 +1,248 @@
+body{
+    background: #eee;
+
+}
+@media only screen and (max-width : 1800px)
+{
+    .container{
+        width:95%;
+    }
+}
+.font-face{
+    font-family: 'Lato' , sans-serif;
+}
+.font
+{
+    color:#90A4AE;
+    font-weight:100;  
+}
+p
+{
+    color:#616161;
+}
+/*-----------------------------------------------------------------*/
+/* Header section
+| includes  styles properties for the following                     |
+|   >Brand name                                                     |
+|   >Navigation bar                                                 |
+*/
+/*-----------------------------------------------------------------*/
+
+.n-wrapper
+{
+    width:100%;
+    position:relative;
+    z-index: 998;
+    height:80px;
+    display:block;
+}
+nav {
+    background-color: white;
+    border-bottom:2px solid #ee6e73;
+    position:fixed;
+    box-shadow: none;
+    height:80px;
+    z-index:998;
+
+}
+
+
+@media only screen and (max-width: 993px){
+    nav, .n-wrapper {
+        height:11vw;
+    }
+    nav a.brand-logo{
+        transform:translateX(-10%);
+    }
+}
+
+nav a{
+    color:#90a4ae;
+}
+nav li a{
+    color:#90a4ae;
+    
+}
+/*------------------------------------------------------------------*/
+/* Hero section
+|   includes a basic style for the landing page                      | 
+*/
+/*------------------------------------------------------------------*/
+.hero-wrapper
+{
+    position:relative;
+    background-color:#ee6a73;
+    height:400px;
+}
+.hero-wrapper > .row
+{
+    margin-bottom:0;
+    background-image:url(../selected/hero.png);
+    height:400px;
+    width:100%;
+    background-position:center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.b-wrapper
+{
+    position:absolute;
+    top:60%;
+    transform:translateY();
+    right:35%;
+}
+
+.btn .btn-large
+{
+    background-color:white;
+}
+/*------------------------------------------------------------------*/
+/* Home section
+|   includes a basic style for the landing page                      | 
+*/
+/*------------------------------------------------------------------*/
+
+
+.home {
+position:relative;
+padding-top: 10em;
+padding-bottom:10em;
+}
+.home .row
+{
+    margin-bottom:0;
+}
+
+#carousel{
+    padding:30px;
+}
+.card-wrapper{
+    padding:30px;
+    
+}
+.card
+{
+    box-shadow:none;
+}
+.card-panel
+{
+    box-shadow: none;
+}
+
+.testimonial-wrapper .font
+{
+    color:#ee6e73;
+    font-weight:300;
+}
+.testimonial-wrapper #heading::after
+{
+    width:40px;
+    margin:5px 8px;
+    background-color:#90A4AE;
+}
+
+/*-------------------------------------------------------------------*/
+/* services section
+|  includes various basic styling for the cards used
+*/
+/*-------------------------------------------------------------------*/
+.services{
+    background-color:white;
+    padding-top:3.2em;
+}
+.services .row
+{
+    margin-bottom:0;
+}
+.services .card-title
+{
+    color:#ee6e73;
+}
+
+#section-header{
+    padding-top:1em;
+}
+
+.card  .card-image{
+    height:400px;
+}
+#heading::after
+{
+    height:2px;
+    background-color:#ee6e73;
+    content:" ";
+    width:150px;
+    display:block;
+    margin:8px auto;
+    z-index:998;
+}
+/*-------------------------------------------------------------------*/
+/* Testimonial section
+|   includes styling for the masonry layout
+*/
+/*-------------------------------------------------------------------*/
+.testimonials
+{
+    background-color: #feffea;
+    padding-top: 3.2em;
+}
+.testimonials .row
+{
+    margin-bottom:0;
+}
+.testimonials .font
+{
+    color:#ee6e73;
+}
+.testimonials #heading::after
+{
+    background-color:#90A4AE;
+}
+.Masonry
+{   width:95.5%;
+    padding:30px;
+}
+
+
+.item
+{
+    display:block;
+    float:left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow  
+}
+
+/*-------------------------------------------------------------------*/
+/* Testimonial section
+|   includes styling for the masonry layout
+*/
+/*-------------------------------------------------------------------*/
+
+.footer-wrapper
+{
+    position:relative;
+    background-color:#ee6a73;
+    height:600px;
+    padding-top:3.2em;
+}
+
+
+
+/*-------------------------------------------------------------------*/
+/* Contact Us
+| styles for contact
+*/
+/*-------------------------------------------------------------------*/
+
+
+.footer-wrapper #heading
+{
+ color: white;
+}
+.img-wrapper
+{
+    height:400px;
+}
